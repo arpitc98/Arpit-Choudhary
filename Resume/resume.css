@@ -1,0 +1,157 @@
+	/*Body*/
+body{
+	background-color: #25274d;
+	color: white;
+}
+.topBar{
+	width: 100%;
+	height: 3%;
+	margin-top: 20px;
+	position: fixed;
+}
+/*	topBar Link*/
+.topBar a{
+	text-decoration: none;
+	color: white;
+}
+.siteIdentity{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 5px;
+	float: left;
+	letter-spacing: 2px;
+}
+/*	menuBar*/
+.menu{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-decoration: none;
+	float: right;
+	font-size: 20px;
+	margin-right: 20px;
+}
+/*	navigation menu links*/
+.menu a{
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+		/*	navigation menu active links*/
+.menu a.active{
+	color: #F64C72;
+}
+/*	LEFT SIDE*/
+.leftSide{
+	position:	fixed;
+	top: 20%;
+	left: 8%;
+	height: 60%;
+	width: 35%;
+}
+.rightside{
+	position: fixed;
+	top:15%;
+	right:8%;
+	width: 40%;
+	
+}
+/* Box - Box Containing all the sub boxes*/
+.boxes{
+	top: auto;
+	margin-top: 5px;
+	margin-bottom: 6px;
+	position: relative;
+	background-color: white;
+	color: black;
+	width: auto;
+	border-radius: 10px;
+}
+.blankBox{
+	top: auto;
+	width: auto;
+	height:5px;
+	background-color: red;
+	position: relative;
+}
+		/* LEFT SIDE Programming Language*/
+.texts{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+		/* LEFT SIDE Language Icon*/
+.imageText{
+	width: ;
+	height: 20px;
+	left: 20%;
+	position: relative;
+}
+#para{
+	font-size: 20px;
+	left: 25%;
+	margin-bottom: 5px;
+	position:relative;
+	display: inline;
+}
+		/*Right Side*/
+/*HEADING RIGHT SIDE*/
+.headingRightSide{
+	text-align: center;
+	font-size: 30px;
+}
+/*	left Box*/
+.leftBox{
+	position: relative;
+	width:45%;
+	height: auto;
+	float: left;
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 5px;
+}
+
+/*	Right Box*/
+.rightBox{
+	position:relative;
+	width:50%;
+	height: auto;
+	background-color: white;
+	margin-top: 5px;
+	float: right;
+	border-radius: 10px;
+}
+.duration{
+	font-size:20px;
+	font-weight: bold;
+	margin-top: 5px;
+	marging-bottom: 5px;
+	margin-left: 5px;
+}
+.subtexts{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+/*FOOTER*/
+.footer{
+	position: fixed;
+	bottom: 0;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+/*Social Media*/
+.footerSocialMedia{
+	bottom: 0;
+	position: fixed;
+	display: inline;
+	right: 10;
+}
+/*Image Sizing and Properties*/
+.imgFormat{
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+	marging: 10px;
+}
